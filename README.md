@@ -5,12 +5,14 @@ which will update your pidgin status with youtube video title from firefox.
 There is a approximately 3 seconds lag in updation.
 
 USAGE
-=====
+-----
     
-    python pidgin-yt.py <online/away/busy>
+    python pidgin-yt.py <online/away/busy>  (proposed, still not implemented)
+
+    python pidgin-yt.py
 
 LICENSE
-=======
-GNU GPL-v3
+-------
+GNU GPLv3
 
     
