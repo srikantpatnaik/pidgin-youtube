@@ -7,8 +7,6 @@ There is a approximately 3 seconds lag in updation.
 USAGE
 -----
     
-    python pidgin-yt.py <online/away/busy>  (proposed, still not implemented)
-
     python pidgin-yt.py
 
 LICENSE
