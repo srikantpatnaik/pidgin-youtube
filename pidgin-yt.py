@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/usr/bin/python
 
 import json
 import requests
@@ -36,7 +36,7 @@ def updatePidgin():
         eachURL = str(firefoxTabs[someValue]['entries'][-1]['url'])
         if "www.youtube.com/watch" in eachURL and eachURL != previousYoutubeURL[0]:
             video_id = findVideoID(eachURL)
-            system("purple-remote 'setstatus?status=online&message=watching: %s on youtube[%s](testing)'"\
+            system("purple-remote 'setstatus?status=available&message=watching: %s on youtube[%s]'"\
             %(video_id['data']['title'],tinyurl.create_one(eachURL)))
             previousYoutubeURL[0] = eachURL
 
